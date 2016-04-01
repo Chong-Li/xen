@@ -412,6 +412,7 @@ struct xen_domctl_scheduler_op {
 typedef struct xen_domctl_scheduler_op xen_domctl_scheduler_op_t;
 DEFINE_XEN_GUEST_HANDLE(xen_domctl_scheduler_op_t);
 
+
 /* XEN_DOMCTL_setdomainhandle */
 struct xen_domctl_setdomainhandle {
     xen_domain_handle_t handle;
