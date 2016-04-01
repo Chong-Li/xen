@@ -1367,7 +1367,7 @@ rt_dom_cntl(
         break;
     }
 
-    return rc; 
+    return rc;
 }
 
 /*

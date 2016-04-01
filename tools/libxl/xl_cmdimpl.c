@@ -6778,7 +6778,7 @@ int main_sched_rtds(int argc, char **argv)
         break;
     case 'p':
         if (p_index >= p_size) {
-            /* 
+            /*
              * periods array is full
              * double the array size for new elements
              */
@@ -6928,7 +6928,6 @@ out:
     free(budgets);
     return r;
 }
-
 
 int main_domid(int argc, char **argv)
 {
