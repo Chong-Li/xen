@@ -1457,6 +1457,7 @@ csched2_dom_cntl(
         }
         break;
     default:
+        spin_unlock_irqrestore(&prv->lock, flags);
         return -EINVAL;
     }
 

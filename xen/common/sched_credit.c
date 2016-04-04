@@ -1101,6 +1101,7 @@ csched_dom_cntl(
             sdom->cap = op->u.credit.cap;
         break;
     default:
+        spin_unlock_irqrestore(&prv->lock, flags);
         return -EINVAL;
     }
 
